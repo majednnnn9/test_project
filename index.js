@@ -1,7 +1,8 @@
 const express = require("express")
 const app = express()
 const userRoutes = require('./routes/user_route');
-
+const dotenv = require("dotenv")
+dotenv.config();
 app.get('/user', (req, res) => {
     res.json({
         "message": DB_NAME,
