@@ -5,7 +5,7 @@ const dotenv = require("dotenv")
 dotenv.config();
 app.get('/user', (req, res) => {
     res.json({
-        "message": process.env.test,
+        "message": process.env.TEST_KEY,
         "data": [
             {
                 "title": "book 1",
