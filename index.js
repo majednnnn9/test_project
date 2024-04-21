@@ -4,7 +4,7 @@ const userRoutes = require('./routes/user_route');
 
 app.get('/user', (req, res) => {
     res.json({
-        "message": "majed",
+        "message": DB_NAME,
         "data": [
             {
                 "title": "book 1",
