@@ -2,10 +2,10 @@ const mysql = require('mysql');
 
 // إعداد معلومات الاتصال
 const connection = mysql.createConnection({
-  host: 'localhost', // اسم خادم قاعدة البيانات
-  user: 'root', // اسم المستخدم
-  password: '', // كلمة المرور
-  database: 'cars' // اسم قاعدة البيانات
+  host: 'boyjhxrxwfbza4rdyzm7-mysql.services.clever-cloud.com', // اسم خادم قاعدة البيانات
+  user: 'uqd5wvj9z0in3ysf', // اسم المستخدم
+  password: 'V1oRdmlpVok7s2qg2BZp', // كلمة المرور
+  database: 'boyjhxrxwfbza4rdyzm7' // اسم قاعدة البيانات
 });
 
 // إنشاء الاتصال
