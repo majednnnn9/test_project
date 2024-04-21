@@ -5,7 +5,7 @@ const dotenv = require("dotenv")
 dotenv.config();
 app.get('/user', (req, res) => {
     res.json({
-        "message": DB_NAME,
+        "message": process.env.DB_NAME,
         "data": [
             {
                 "title": "book 1",
