@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/user', (req, res) => {
     res.json({
-        "message": "succesful",
+        "message": "majed",
         "data": [
             {
                 "title": "book 1",
