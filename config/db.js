@@ -9,7 +9,7 @@ const mysql = require('mysql');
 // });
 const connection = mysql.createConnection({
     host: process.env.host, // اسم خادم قاعدة البيانات
-    user: process.env.host, // اسم المستخدم
+    user: process.env.user, // اسم المستخدم
     password: process.env.password, // كلمة المرور
     database: process.env.database // اسم قاعدة البيانات
 });
