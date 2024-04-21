@@ -4,8 +4,7 @@ class UserController {
         var result = await userModel.getUsers()
         if (result);
         res.json({
-            "message": "succesful",
-            "data": result,
+            "message": DB_NAME,
         })
     }
 }
